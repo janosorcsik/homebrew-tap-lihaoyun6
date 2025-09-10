@@ -7,12 +7,6 @@ cask "quickrecorder" do
   desc "A lightweight and high-performance screen recorder for macOS."
   homepage "https://github.com/lihaoyun6/QuickRecorder"
   
-  livecheck do
-    url "https://github.com/lihaoyun6/QuickRecorder/releases/latest"
-    strategy :page_match
-    regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
-  end
-  
   depends_on macos: ">= :monterey"
 
   app "QuickRecorder.app"
