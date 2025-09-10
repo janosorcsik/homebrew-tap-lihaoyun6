@@ -1,6 +1,6 @@
 cask "airbattery" do
-  version "1.6.2"
-  sha256 "b4b0d9cfd08a992e3fb1357c0cc3dd6300bd157f922b6e30a398a86b83a5cffc"
+  version "1.6.3"
+  sha256 "724a38540195eb5490d320f3fe4a0d687b936b2f466bd094243b4b1e6045d88e"
 
   url "https://github.com/lihaoyun6/AirBattery/releases/download/#{version}/AirBattery_v#{version}.dmg"
   name "AirBattery"
