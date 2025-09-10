@@ -16,4 +16,15 @@ cask "airbattery" do
   depends_on macos: ">= :big_sur"
 
   app "AirBattery.app"
+
+  zap trash: [
+    "~/Library/Application Scripts/com.lihaoyun6.AirBattery.widget",
+    "~/Library/Application Scripts/com.lihaoyun6.AirBatteryHelper",
+    "~/Library/Caches/com.lihaoyun6.AirBattery",
+    "~/Library/Containers/com.lihaoyun6.AirBattery.widget",
+    "~/Library/Containers/com.lihaoyun6.AirBatteryHelper",
+    "~/Library/HTTPStorages/com.lihaoyun6.AirBattery",
+    "~/Library/Preferences/com.lihaoyun6.AirBattery.plist",
+    "~/Library/WebKit/com.lihaoyun6.AirBattery",
+  ]
 end

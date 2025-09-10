@@ -18,7 +18,9 @@ cask "quickrecorder" do
   app "QuickRecorder.app"
 
   zap trash: [
+    "~/Library/Caches/com.lihaoyun6.QuickRecorder",
     "~/Library/HTTPStorages/com.lihaoyun6.QuickRecorder",
     "~/Library/Preferences/com.lihaoyun6.QuickRecorder.plist",
+    "~/Library/WebKit/com.lihaoyun6.QuickRecorder",
   ]
 end
