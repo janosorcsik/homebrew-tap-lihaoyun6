@@ -1,6 +1,6 @@
 cask "xhistory" do
-  version "0.1.6"
-  sha256 "a8fb4d5f1fd4ba9795f47548a2cef36cce4b391770324c321f36cb7efe27a42e"
+  version "0.1.9"
+  sha256 "a78c66d5426f4a9e35d6f04d9972fc34a9393a1f2817e307a842945775a179ae"
 
   url "https://github.com/lihaoyun6/xHistory/releases/download/#{version}/xHistory_v#{version}.dmg"
   name "xHistory"
