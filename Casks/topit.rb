@@ -6,8 +6,8 @@ cask "topit" do
   name "Topit"
   desc "Pin any window to the top of your screen."
   homepage "https://github.com/lihaoyun6/Topit"
-  
-  depends_on macos: ">= :ventura"
+
+  depends_on macos: :ventura"
 
   app "Topit.app"
 

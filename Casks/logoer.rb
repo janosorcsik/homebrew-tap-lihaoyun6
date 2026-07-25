@@ -6,8 +6,8 @@ cask "logoer" do
   name "Logoer"
   desc "Change the style of the Apple logo in macOS menu bar."
   homepage "https://github.com/lihaoyun6/Logoer"
-  
-  depends_on macos: ">= :monterey"
+
+  depends_on macos: :monterey"
 
   app "Logoer.app"
 

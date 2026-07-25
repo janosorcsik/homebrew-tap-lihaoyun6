@@ -6,8 +6,8 @@ cask "xhistory" do
   name "xHistory"
   desc "A powerful command line history manager built with SwiftUI."
   homepage "https://github.com/lihaoyun6/xHistory"
-  
-  depends_on macos: ">= :monterey"
+
+  depends_on macos: :monterey"
 
   app "xHistory.app"
 
