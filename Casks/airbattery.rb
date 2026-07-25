@@ -7,7 +7,7 @@ cask "airbattery" do
   desc "Get the battery level of all your devices on your Mac."
   homepage "https://github.com/lihaoyun6/AirBattery"
 
-  depends_on macos: :big_sur"
+  depends_on macos: :big_sur
 
   app "AirBattery.app"
 
